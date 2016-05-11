@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4759F11CE34AA700CA5083 /* OCAlgorithms.h in Headers */ = {isa = PBXBuildFile; fileRef = 88098268142FC02A002AD1BD /* OCAlgorithms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4759F21CE34AC800CA5083 /* OCAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8809826A142FC02A002AD1BD /* OCAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4759F31CE34AFD00CA5083 /* OCDistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 8809826C142FC02A002AD1BD /* OCDistance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4759F41CE34BCE00CA5083 /* OCGrouping.h in Headers */ = {isa = PBXBuildFile; fileRef = 8890623314E9ADF800A402D0 /* OCGrouping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D6A209D1CE33D77009D80B6 /* OCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6A209C1CE33D77009D80B6 /* OCMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D6A20A21CE33E08009D80B6 /* OCAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 88098269142FC02A002AD1BD /* OCAlgorithms.m */; };
 		4D6A20A31CE33E08009D80B6 /* OCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8809826B142FC02A002AD1BD /* OCAnnotation.m */; };
@@ -285,7 +289,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4759F11CE34AA700CA5083 /* OCAlgorithms.h in Headers */,
+				4D4759F21CE34AC800CA5083 /* OCAnnotation.h in Headers */,
+				4D4759F31CE34AFD00CA5083 /* OCDistance.h in Headers */,
 				4D6A209D1CE33D77009D80B6 /* OCMapView.h in Headers */,
+				4D4759F41CE34BCE00CA5083 /* OCGrouping.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
