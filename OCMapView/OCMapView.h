@@ -11,8 +11,16 @@
 #import "OCAnnotation.h"
 #import "OCAlgorithms.h"
 
+//! Project version number for OCMapView.
+FOUNDATION_EXPORT double OCMapViewVersionNumber;
+
+//! Project version string for OCMapView.
+FOUNDATION_EXPORT const unsigned char OCMapViewVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <OCMapView/PublicHeader.h>
+
 /// MapView replacement for MKMapView
-/** OCMapView works like the standard MKMapView but 
+/** OCMapView works like the standard MKMapView but
  creates clusters from all added annotations.*/
 @interface OCMapView : MKMapView
 
@@ -41,12 +49,12 @@
 //
 /// Defines the cluster size in units of the map width.
 /** eg. clusterSize 0.5 is the half of the map.
-default: 0.2*/
+ default: 0.2*/
 @property(nonatomic, assign) float clusterSize;
 
 //
 /// Enables multiple clusters
-/** If enabled, tha mapview will generate different clusters for Tags 
+/** If enabled, tha mapview will generate different clusters for Tags
  implemented by the OCGrouping protocol.
  default: NO*/
 @property(nonatomic, assign) BOOL clusterByGroupTag;
@@ -73,5 +81,3 @@ default: 0.2*/
 - (void)doClustering;
 
 @end
-
-
